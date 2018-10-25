@@ -1,0 +1,29 @@
+{
+  "name": "Countries",
+  "options": {
+    "idInjection": false,
+    "mysql": {
+      "schema": "azan",
+      "table": "countries"
+    },
+    "relations": {}
+  },
+  "properties": {
+    "name": {
+      "type": "String",
+      "required": true,
+      "length": 100,
+      "precision": null,
+      "scale": null,
+      "id": 1,
+      "mysql": {
+        "columnName": "Name",
+        "dataType": "varchar",
+        "dataLength": 100,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    }
+  }
+}

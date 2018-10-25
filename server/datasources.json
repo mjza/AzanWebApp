@@ -1,0 +1,12 @@
+{
+  "azan": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "azan",
+    "password": "mjz626",
+    "name": "azan",
+    "user": "admin",
+    "connector": "mysql"
+  }
+}
